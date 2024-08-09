@@ -10,9 +10,27 @@ export default {
     ],
 
     theme: {
+        container: {
+            center: true,
+            padding: '2rem',
+        },
         extend: {
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                sans: ['Poppins', ...defaultTheme.fontFamily.sans],
+            },
+
+            colors: {
+                'royal-blue': '#2405F2',
+                'tint-blue': '#1C1E53',
+                'dark-blue': '#282938',
+                'yellow': '#FCD980',
+                'grey': '#F4F6FC',
+                'light-grey': '#bbbbcb',
+                'accent': '#EEF4FA',
+                'black': '#000000',
+                'white': '#FFFFFF',
+                'transparent': 'transparent',
+                'current': 'currentColor',
             },
         },
     },
